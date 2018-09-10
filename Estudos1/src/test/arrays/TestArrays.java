@@ -8,6 +8,7 @@ class TestArrays {
 		int testArrayDois[] = {3,2,1}; //ok mas não aconselhavel
 		
 		System.out.println(testArray[4]);
+		System.out.println(testArray[1532]); //Compila mas causa erro de execução!
 	}
 
 }
