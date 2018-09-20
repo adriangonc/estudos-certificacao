@@ -6,7 +6,7 @@ class TestArrays {
 
 		int[] testArray = {1,2,3,4,5}; //ok
 		int testArrayDois[] = {3,2,1}; //ok mas nÃ£o aconselhavel
-		int[][][] multiDimensionalArray = new int[2][][]; //Só e exigido que a primeira dimensão do array esteja preenchida
+		int[][][] multiDimensionalArray = new int[2][][]; //Sï¿½ e exigido que a primeira dimensï¿½o do array esteja preenchida
 		
 		System.out.println(testArray[4]);
 		System.out.println(testArray[1532]); //Compila mas causa erro de execuÃ§Ã£o!
