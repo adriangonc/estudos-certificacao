@@ -1,7 +1,5 @@
 package test.exceptions;
 
-import java.io.FileNotFoundException;
-
 public class TestExceptions5 {
 
 	public static void main(String[] args) throws java.io.IOException {
