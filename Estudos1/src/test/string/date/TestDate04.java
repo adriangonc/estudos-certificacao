@@ -2,7 +2,7 @@ package test.string.date;
 
 import java.time.LocalDate;
 
-public class TestDate04 {
+public class TestDate04 extends java.util.Date{
 
 	public static void main(String[] args) {
 		LocalDate ld = LocalDate.of(2018,10,10);
