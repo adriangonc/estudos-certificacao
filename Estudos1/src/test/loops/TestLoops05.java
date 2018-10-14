@@ -21,9 +21,23 @@ public class TestLoops05 {
 									// variável a
 		}
 
-		for (int x = 0; x < i.length; System.out.print(i[x] + " ")) {
+		/*for (int x = 0; x < i.length; System.out.print(i[x] + " ")) {
 			x++;
+		}*/
+		
+		int z = 10;
+		int _ = 1;    int _um = 1;
+		int $ = 1532; int $dois = 2;
+		System.out.println(z + _ + $ + _um + $dois);
+		
+		if((z = 0) < 2){System.out.println("Entrou no if...");}
+		while((z = 1) == 1){
+			System.out.println("Entrou no while..."); //
+			break;
 		}
+		
+		if(false ^ true){System.out.println("Entrou em ^");} //Só executa se o segundo booleano for diferente do primeiro.
+		
 	}
 
 }

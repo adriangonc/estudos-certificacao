@@ -8,6 +8,11 @@ public class TestBooleans04 {
 		System.out.println(true ^ (false | false)); //true
 		System.out.println(true ^ false | true); // true
 		System.out.println((true ^ false) | true); //true
+		System.out.println(true ^ true); //false
+		System.out.println(false ^ false); //false
+		System.out.println(false ^ true); //true
+		System.out.println(true ^ false); //true
+		
 	}
 
 }

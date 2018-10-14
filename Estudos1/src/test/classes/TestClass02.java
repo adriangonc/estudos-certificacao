@@ -7,6 +7,7 @@ public class TestClass02 {
 	
 	public static void main(String[] args) {
 		TestClass02 tc2 = new TestClass02();
+		int x =0;
 	}
 
 }
