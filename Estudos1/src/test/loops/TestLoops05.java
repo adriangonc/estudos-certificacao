@@ -7,7 +7,7 @@ public class TestLoops05 {
 	}
 
 	void iterator(int[] i) {
-		
+		//Teste
 		//private int b = 0; não e permitido usar private, protected ou public em escopo local :o
 		int b = 0;
 
