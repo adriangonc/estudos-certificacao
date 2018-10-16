@@ -17,6 +17,10 @@ public class TestString10 {
 		String[] st = {"G","O","N","C"};
 		String join = String.join("*", st);
 		System.out.println(join); //G*O*N*C
+		
+		StringBuilder sb = new StringBuilder("ABC");
+		//sb.concat(); //Concat existe somente na classe string.
+		sb.append("123"); //Para concatenar string builder usamos 'append'.
 	}
 
 }

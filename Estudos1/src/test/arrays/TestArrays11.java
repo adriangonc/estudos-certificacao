@@ -1,6 +1,8 @@
 package test.arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class TestArrays11 {
 
@@ -17,7 +19,12 @@ public class TestArrays11 {
 			++x;
 		}
 		
+		List<Float> l = new ArrayList<>();
+		
+		
 		throw new RuntimeException();
+		
+		
 	}
 
 }
