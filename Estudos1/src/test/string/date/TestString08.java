@@ -21,6 +21,8 @@ public class TestString08 {
 		list.add("D");
 		list.spliterator();
 		System.out.println(list);
+		
+		int aa[] = {1,2,3}, bb = 10; //aa e um array e bb um int.
 	}
 
 }
