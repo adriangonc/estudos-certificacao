@@ -2,7 +2,7 @@ package test.arrays;
 
 import java.util.ArrayList;
 
-public class TestArrays12 {
+public class TestArrays12 { //static e inválido para classes top level
 
 	public static void main(String[] args) {
 		ArrayList<String> ls = new ArrayList<>();
